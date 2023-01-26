@@ -5,10 +5,10 @@ import App from './App';
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
-import Home from '/pages/Home';
-import DragonBlock from '/pages/DragonBlock'
-import NarutoC from '/pages/NarutoC'
-import Commands from '/pages/Commands';
+import Home from './pages/Home';
+import DragonBlock from './pages/DragonBlock'
+import NarutoC from './pages/NarutoC'
+import Commands from './pages/Commands';
 
 const router = createBrowserRouter([
   {
