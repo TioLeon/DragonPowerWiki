@@ -1,0 +1,69 @@
+{
+    "commands":[
+        {
+            "name":"Trocar",
+            "command":"trocar",
+            "desc":"Utilizado para trocar as orbs obtidas de inúmeras formas por Training Points."
+        },{
+            "name":"Ranks",
+            "command":"ranks",
+            "desc":"Utilizado para upar seu rank, upando seu rank você consegue liberar missões melhores e diversos outros benefícios."
+        },{
+            "name":"Minas",
+            "command":"minas",
+            "desc":"Abre o Menu de Minas onde o jogador pode minerar para conseguir money."
+        },{
+            "name":"Vender",
+            "command":"vender",
+            "desc":"Utilizado para vender os minérios minerados na mina e as plantações que podem ser feitas em sua Plot."
+        },{
+            "name":"Plot - Auto",
+            "command":"plot auto",
+            "desc":"Claima um terreno no mundo de Plots e te teleporta para ele."
+        },{
+            "name":"Plot - Claim",
+            "command":"plot claim",
+            "desc":"Claima o terreno em que você está (se não possuir dono)."
+        },{
+            "name":"Plot - Home",
+            "command":"plot h",
+            "desc":"Te teleporta para seu Plot."
+        },{
+            "name":"Mestres",
+            "command":"mestres",
+            "desc":"Abre o Menu com os Mestre do DragonBlock onde você pode aprender Habilidades e Técnicas."
+        },{
+            "name":"Alinhamento",
+            "command":"alinhamento mal | bem",
+            "desc":"Comando utilizado para trocar seu alinhamento"
+        },{
+            "name":"Loja",
+            "command":"loja",
+            "desc":"Abre um Menu onde você pode comprar vários itens utilizando seu Money"
+        },{
+            "name":"Pesca",
+            "command":"pesca",
+            "desc":"Abre o Menu de pesca que te leva para a pescaria, local onde você pode farmar Money"
+        },{
+            "name":"Shop",
+            "command":"shop",
+            "desc":"Abre um Menu onde você pode comprar Caixas, Picaretas e outras coisas utilzando seu Cash (adquirido no site)"
+        },{
+            "name":"Capsulas",
+            "command":"capsulas",
+            "desc":"Abre um Menu onde você pode comprar Capsulas que restauram seus recursos ao serem consumidas (muito util para combates)"
+        },{
+            "name":"Clan",
+            "command":"clan",
+            "desc":"Mostra os comandos relacionados a função de Clans"
+        },{
+            "name":"Discord",
+            "command":"discord",
+            "desc":"Envia o Link do discord em seu chat"
+        },{
+            "name":"Zenkai",
+            "command":"zenkai",
+            "desc":"Comando para pessoas avançadas, reseta seus Status e Skills em troca de benefícios (tais como o aumento de Status Máximos)"
+        }
+    ]
+}

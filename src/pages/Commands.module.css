@@ -1,0 +1,106 @@
+.container{
+    min-height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222;
+}
+
+.intro{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.commands{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    width: 100%;
+}
+
+.command{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: black 1px solid;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 3px;
+    margin: 3px;
+}
+
+.title{
+    color: orange;
+    background-color: #222;
+    text-align: center;
+}
+
+.commandtext{
+    border-bottom: solid black 1px;
+    font-weight: bold;
+}
+
+.commandbar{
+    font-weight: normal;
+    background-color: #1d1f21;
+    color: #fff;
+    padding: 3px;
+    font-family: monospace;
+}
+
+.desc{
+    text-align: center;
+}
+
+.servers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    border: #222 solid 1px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.5rem;    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #222;
+    color: orange;
+}
+
+.back{
+    
+    width: 20%;
+    background-color: orange;
+    columns: #222;
+}
+
+@media (max-width: 1000px) {
+    .container{
+        min-height: 77.3vh;
+    }
+    .intro{
+        width: 100%;
+    }
+    .command{
+        width: 90%;
+    }
+}
