@@ -16,18 +16,20 @@
     flex-direction: column;
 }
 
-.commands{
-   display: flex;
-    flex-direction: column;
+.ranks{
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 7px;
     width: 100%;
 }
 
-.command{
+.rank{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 20%;
     border: black 1px solid;
     border-radius: 3px;
     font-size: 1.3rem;
@@ -42,20 +44,23 @@
     text-align: center;
 }
 
-.commandtext{
-    border-bottom: solid black 1px;
+.price{
+    text-align: center;
     font-weight: bold;
 }
 
-.commandbar{
-    font-weight: normal;
-    background-color: #1d1f21;
-    color: #fff;
-    padding: 3px;
-    font-family: monospace;
+.value{
+    color: green;
 }
 
-.desc{
+.rewards, ul{
+    text-align: center;
+    list-style: none;
+}
+
+
+.rewardTitle{
+    border-top: black solid 1px;
     text-align: center;
 }
 
@@ -66,7 +71,7 @@
     .intro{
         width: 100%;
     }
-    .command{
+    .rank{
         width: 90%;
     }
 }

@@ -1,0 +1,43 @@
+{
+    "ranks":[
+        {
+            "name":"Iniciante",
+            "price":"0",
+            "rewards":["É o rank inicial por isso não possui benefícios."]
+        },
+        {
+            "name":"Iniciante soquedois",
+            "price":"10000",
+            "rewards":["Liberar missões médias","Libera minadois"]
+        },
+        {
+            "name":"Iniciante",
+            "price":"0",
+            "rewards":["É o rank inicial por isso não possui benefícios."]
+        },
+        {
+            "name":"Iniciante soquedois",
+            "price":"10000",
+            "rewards":["Liberar missões médias","Libera minadois"]
+        },{
+            "name":"Iniciante",
+            "price":"0",
+            "rewards":["É o rank inicial por isso não possui benefícios."]
+        },
+        {
+            "name":"Iniciante soquedois",
+            "price":"10000",
+            "rewards":["Liberar missões médias","Libera minadois"]
+        },
+        {
+            "name":"Iniciante",
+            "price":"0",
+            "rewards":["É o rank inicial por isso não possui benefícios."]
+        },
+        {
+            "name":"Iniciante soquedois",
+            "price":"10000",
+            "rewards":["Liberar missões médias","Libera minadois"]
+        }
+    ]
+}

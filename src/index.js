@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import DragonBlock from './pages/DragonBlock'
 import NarutoC from './pages/NarutoC'
 import Commands from './pages/Commands';
+import Ranks from './pages/Ranks';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "comandos",
         element: <Commands/>
+      },
+      {
+        path: "ranks",
+        element: <Ranks/>
       }
   ]
   }

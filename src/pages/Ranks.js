@@ -1,34 +1,33 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
-import styles from './Commands.module.css'
+import styles from './Ranks.module.css'
 
-import DbcData from '../dbs/Dbc/Commands.json'
-import NcData from '../dbs/Nc/Commands.json'
+import DbcData from '../dbs/Dbc/Ranks.json'
+import NcData from '../dbs/Nc/Ranks.json'
 
-import Command from '../components/Command'
 import Select from '../components/Select'
 
 import BackButton from '../components/BackButton'
+import Rank from '../components/Rank'
 
-const Commands = () => {
+const Ranks = () => {
 
-
-  var [server,setServer] = useState("");
+  const [server,setServer] = useState("");
   var data;
 
   if(server!==""){
-    server==="dbc" ? (data = DbcData.commands) : (data = NcData.commands)
+    server==="dbc" ? (data = DbcData.ranks) : (data = NcData.ranks)
 
     return (
       <div className={styles.container}>
         <div className={styles.intro}>
-          <h1>Comandos - {server==="dbc" ? ("Dragon Block") : ("Naruto C")}</h1>
+          <h1>Ranks - {server==="dbc" ? ("Dragon Block") : ("Naruto C")}</h1>
           <p>O servidor possui vários comandos com diversas funcionalidades, para conhecer todos eles essa é a caregoria certa!</p>
           <p>A seguir estão os principais comandos do servidor: </p>
         </div>
-        <div className={styles.commands}>
-          {data.map((command) =>
-            <Command command={command}/>
+        <div className={styles.ranks}>
+          {data.map((rank) =>
+            <Rank rank={rank}/>
           )}
         </div>
         <BackButton to={"/"}/>
@@ -48,4 +47,4 @@ const Commands = () => {
   }
 }
 
-export default Commands
+export default Ranks

@@ -34,7 +34,7 @@ const Home = () => {
                         <p>O servidor possui vários comandos com diversas funcionalidades, para conhecer todos eles essa é a caregoria certa!</p>
                     </div>
                 </Link>
-                <Link to={"/"}>
+                <Link to={"ranks"}>
                     <div className={styles.info_container}>
                         <span className={styles.info_title}>Ranks <GiRank3/></span>
                         <p>Alguns dos servidores de nossa rede possuem o sistema de RankUp que consiste em o jogador desbloquear novas atividades no servidor conforme aumenta seu Rank, essa categoria mostras os Ranks existentes suas vantagens e preços (ranks são comprados com a moeda do jogo).</p>
