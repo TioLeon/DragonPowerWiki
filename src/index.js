@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-import { createBrowserRouter, HashRouter, RouterProvider} from 'react-router-dom'
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 import Home from './pages/Home';
 import DragonBlock from './pages/DragonBlock'
@@ -12,9 +12,9 @@ import Commands from './pages/Commands';
 
 const router = createBrowserRouter([
   {
+    basename:"DragonPowerWiki",
     path:"/",
     element:<App/>,
-    errorElement: <App/>,
     children:[
       {
         path: "/",
@@ -31,16 +31,14 @@ const router = createBrowserRouter([
       {
         path: "comandos",
         element: <Commands/>
-      },
+      }
   ]
   }
-])
+], { basename: "/DragonPowerWiki" })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter >
-    <React.StrictMode>
-      <RouterProvider router={router} />
-    </React.StrictMode>
-  </HashRouter>
+  <React.StrictMode>
+    <RouterProvider router={router} basename={"DragonPowerWiki"}/>
+  </React.StrictMode>
 );
