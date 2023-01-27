@@ -1,7 +1,0 @@
-.container{
-    min-height: 71vh;
-
-}
-@media (max-width: 1000px) {
-    .container{min-height: 77.3vh;}
-}

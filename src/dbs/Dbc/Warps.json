@@ -1,0 +1,70 @@
+{
+    "warps":
+        [
+            {
+                "name": "Spawn",
+                "command": "spawn",
+                "thumb":"Spawn.png"
+            },
+            {
+                "name": "Pesca",
+                "command": "warp pesca",
+                "thumb":"Pesca.png"
+            },
+            {
+                "name": "Xenoverse",
+                "command": "warp xenoverse",
+                "thumb":"Xenoverse.png"
+            },
+            {
+                "name": "Bosses - Fácil a Extremo",
+                "command": "warp bosses",
+                "thumb":"Bosses.png"
+            },
+            {
+                "name": "Bosses - Divino/Arcano",
+                "command": "warp bosses2",
+                "thumb":"Bosses2.png"
+            },
+            {
+                "name": "Clans",
+                "command": "warp clans",
+                "thumb":"Clans.png"
+            },
+            {
+                "name": "Plots",
+                "command": "warp plots",
+                "thumb":"Plots.png"
+            },
+            {
+                "name": "Filmes",
+                "command": "warp filmes",
+                "thumb":"Filmes.png"
+            },
+            {
+                "name": "Coliseu",
+                "command": "warp coliseu",
+                "thumb":"Coliseu.png"
+            },
+            {
+                "name": "City",
+                "command": "warp city",
+                "thumb":"City.png"
+            },
+            {
+                "name": "Hefesto",
+                "command": "warp hefesti",
+                "thumb":"Hefesto.png"
+            },
+            {
+                "name": "Saga Z",
+                "command": "warp sagaz",
+                "thumb":"Sagaz.png"
+            },
+            {
+                "name": "Story",
+                "command": "warp story",
+                "thumb":"Story.png"
+            }
+        ]
+}

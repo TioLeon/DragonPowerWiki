@@ -8,7 +8,7 @@ import NcData from '../dbs/Nc/Commands.json'
 import Command from '../components/Command'
 import Select from '../components/Select'
 
-import BackButton from '../components/BackButton'
+import { Unselect } from '../components/BackButton'
 
 const Commands = () => {
 
@@ -28,10 +28,10 @@ const Commands = () => {
         </div>
         <div className={styles.commands}>
           {data.map((command) =>
-            <Command command={command}/>
+            <Command command={command} key={command.name}/>
           )}
         </div>
-        <BackButton to={"/"}/>
+        <Unselect setServer={setServer}/>
       </div>
     )
   }else{

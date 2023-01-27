@@ -1,43 +1,81 @@
 {
     "ranks":[
         {
-            "name":"Iniciante",
-            "price":"0",
-            "rewards":["É o rank inicial por isso não possui benefícios."]
-        },
-        {
-            "name":"Iniciante soquedois",
-            "price":"10000",
-            "rewards":["Liberar missões médias","Libera minadois"]
-        },
-        {
-            "name":"Iniciante",
-            "price":"0",
-            "rewards":["É o rank inicial por isso não possui benefícios."]
-        },
-        {
-            "name":"Iniciante soquedois",
-            "price":"10000",
-            "rewards":["Liberar missões médias","Libera minadois"]
+            "name":"Base",
+            "price":"200000 (200k)",
+            "rewards":[
+                "15 KK de TP;",
+                "800 de CON;",
+                "500 de STR;",
+                "400 de SPI;",
+                "300 de DEX."]
         },{
-            "name":"Iniciante",
-            "price":"0",
-            "rewards":["É o rank inicial por isso não possui benefícios."]
-        },
-        {
-            "name":"Iniciante soquedois",
-            "price":"10000",
-            "rewards":["Liberar missões médias","Libera minadois"]
-        },
-        {
-            "name":"Iniciante",
-            "price":"0",
-            "rewards":["É o rank inicial por isso não possui benefícios."]
-        },
-        {
-            "name":"Iniciante soquedois",
-            "price":"10000",
-            "rewards":["Liberar missões médias","Libera minadois"]
+            "name":"SSJ1",
+            "price":"300000 (300k)",
+            "rewards":["Desbloqueia Bosses de nível Fácil."]
+        },{
+            "name":"SSJ2",
+            "price":"400000 (400k)",
+            "rewards":["Desbloqueia Missões da Saga Z."]
+        },{
+            "name":"SSJ3",
+            "price":"500000 (500k)",
+            "rewards":["Desbloqueia Bosses de nível Médio."]
+        },{
+            "name":"SSJ4",
+            "price":"600000 (600k)",
+            "rewards":["Desbloqueia Missões da Saga GT."]
+        },{
+            "name":"Kaioken",
+            "price":"700000 (700k)",
+            "rewards":["Desbloqueia a Mina Carvão."]
+        },{
+            "name":"SSJGod",
+            "price":"800000 (800k)",
+            "rewards":["Desbloqueia Bosses de nível Difícil."]
+        },{
+            "name":"SSJBlue",
+            "price":"900000 (900k)",
+            "rewards":["Desbloqueia Missões da Saga Super."]
+        },{
+            "name":"SSJBlueKaioken",
+            "price":"1000000 (1kk)",
+            "rewards":["Desbloqueia a Mina Diamante."]
+        },{
+            "name":"UltraInstinto",
+            "price":"4000000 (4kk)",
+            "rewards":["Desbloqueia Bosses de nível Extremo."]
+        },{
+            "name":"Divindade",
+            "price":"6000000 (6kk)",
+            "rewards": 
+                [
+                    "Desbloqueia Missões da Saga Heroes;",
+                    "Desbloqueia /warp bosses2."
+                ]
+        },{
+            "name":"Anjo",
+            "price":"15000000 (15kk)",
+            "rewards": 
+                [
+                    "Acesso ao /lojagod;",
+                    "3 Caixas Misteriosas Comum e 3 Raras."
+                ]
+        },{
+            "name":"Arcano",
+            "price":"35000000 (35kk)",
+            "rewards": 
+                [
+                    "Acesso ao /zenkai;",
+                    "Acesso aos Bosses Arcano."
+                ]
+        },{
+            "name":"Nightmare",
+            "price":"45000000 (45kk)",
+            "rewards": 
+                [
+                    "Acesso ao /rebirth"
+                ]
         }
     ]
 }

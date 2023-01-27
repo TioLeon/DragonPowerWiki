@@ -10,8 +10,8 @@ const Rank = ( {rank} ) => {
         <div className={styles.rewards}>
             <h4 className={styles.rewardTitle}>Recompensas:</h4>
             <ul>
-                {rank.rewards.map((reward) =>
-                    <Reward reward={reward}/>
+                {rank.rewards.map((reward, index) =>
+                    <Reward reward={reward} key={index}/>
                 )}
             </ul>
         </div>

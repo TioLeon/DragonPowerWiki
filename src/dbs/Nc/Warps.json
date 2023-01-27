@@ -1,0 +1,15 @@
+{
+    "warps":
+        [
+            {
+                "name": "Spawn",
+                "command": "/spawn",
+                "thumb":"Spawn.png"
+            },
+            {
+                "name": "Pesca",
+                "command": "/warp pesca",
+                "thumb":"Pesca.png"
+            }
+        ]
+}

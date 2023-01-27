@@ -22,7 +22,7 @@ const Home = () => {
                         <p>Nosso servidor possui diversos sistemas, se você possui dúvidas ou não conhece alguns deles essa categoria irá te mostrar como utilizar cada um dos sistemas implementados em cada servidor!</p>
                     </div>
                 </Link>
-                <Link to={"/"}>
+                <Link to={"warps"}>
                     <div className={styles.info_container}>
                         <span className={styles.info_title}>Warps <HiLocationMarker/></span>
                         <p>Warps são os locais de teleporte, elas são acessadas com o comando /warps e podem te levar para Arenas, Missões, Minas, Eventos e muitos outros lugares!</p>

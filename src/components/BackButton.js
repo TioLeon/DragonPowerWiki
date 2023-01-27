@@ -10,4 +10,10 @@ const BackButton = ( { to } ) => {
   )
 }
 
+export const Unselect = ( { setServer } ) => {
+  return (
+    <button onClick={(e)=>setServer("")} className={styles.back}>Voltar</button>
+  )
+}
+
 export default BackButton

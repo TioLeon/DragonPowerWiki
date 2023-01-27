@@ -6,10 +6,9 @@ import App from './App';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 import Home from './pages/Home';
-import DragonBlock from './pages/DragonBlock'
-import NarutoC from './pages/NarutoC'
 import Commands from './pages/Commands';
 import Ranks from './pages/Ranks';
+import Warps from './pages/Warps';
 
 const router = createBrowserRouter([
   {
@@ -22,20 +21,16 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "dbc",
-        element: <DragonBlock/>
-      },
-      { 
-        path: "nc",
-        element: <NarutoC/>
-      },
-      {
         path: "comandos",
         element: <Commands/>
       },
       {
         path: "ranks",
         element: <Ranks/>
+      },
+      {
+        path: "warps",
+        element: <Warps/>
       }
   ]
   }
