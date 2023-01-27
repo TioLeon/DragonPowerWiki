@@ -22,8 +22,8 @@ const Ranks = () => {
       <div className={styles.container}>
         <div className={styles.intro}>
           <h1>Ranks - {server==="dbc" ? ("Dragon Block") : ("Naruto C")}</h1>
-          <p>O servidor possui vários comandos com diversas funcionalidades, para conhecer todos eles essa é a caregoria certa!</p>
-          <p>A seguir estão os principais comandos do servidor: </p>
+          <p>Alguns dos servidores de nossa rede possuem o sistema de RankUp que consiste em o jogador desbloquear novas atividades no servidor conforme aumenta seu Rank, essa categoria mostras os Ranks existentes suas vantagens e preços (ranks são comprados com a moeda do jogo).</p>
+          <p>A seguir está uma lista dos ranks disponíveis: </p>
         </div>
         <div className={styles.ranks}>
           {data.map((rank) =>
@@ -38,8 +38,8 @@ const Ranks = () => {
       <div className={styles.container}>
         <div className={styles.intro}>
           <h1>Comandos</h1>
-          <p>O servidor possui vários comandos com diversas funcionalidades, para conhecer todos eles essa é a caregoria certa!</p>
-          <p>Selecione um servidor para ver os comandos dele</p>
+          <p>Alguns dos servidores de nossa rede possuem o sistema de RankUp que consiste em o jogador desbloquear novas atividades no servidor conforme aumenta seu Rank, essa categoria mostras os Ranks existentes suas vantagens e preços (ranks são comprados com a moeda do jogo).</p>
+          <p>Selecione um servidor para ver os Ranks dele</p>
         </div>
         <Select setServer={setServer}/>
       </div>
