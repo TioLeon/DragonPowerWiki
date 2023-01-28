@@ -16,7 +16,7 @@ const Home = () => {
             <p>Bem vindo à Wiki da nossa network, aqui você encontrará diversas informações sobre nossos diferentes servidores.</p>
             <p>As principais informações que você pode encontrar são:</p>
             <div className={styles.infotypes}>
-                <Link to={"/"}>
+                <Link to={"systems"}>
                     <div className={styles.info_container}>
                         <span className={styles.info_title}>Sistemas<BsFillGearFill/></span>
                         <p>Nosso servidor possui diversos sistemas, se você possui dúvidas ou não conhece alguns deles essa categoria irá te mostrar como utilizar cada um dos sistemas implementados em cada servidor!</p>

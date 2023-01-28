@@ -1,0 +1,135 @@
+.container{
+    min-height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222;
+}
+
+.intro{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.systems{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+}
+
+.system{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    width: 100%;
+    color: orange;
+    background-color: #222;
+    text-align: center;
+}
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.li{
+    width: 400px;
+    border: black solid 1px;
+    padding: 5px;
+    height: 400px;
+}
+
+.img{
+    width: 100%;
+    height: 300px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bosses{
+    border: black solid 1px;
+    width: 40%;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.print_img{
+    width: 40%;
+    height: 250px;
+}
+
+.navigation > button{
+    width: 50%;
+    border: #222 solid 1px;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.5rem;    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #222;
+    color: orange;
+}
+
+@media (max-width: 1000px) {
+    .container{
+        min-height: 77.3vh;
+    }
+    .intro{
+        width: 100%;
+    }
+    .systems{
+        width: 98%;
+    }
+
+    .system{
+        width: 100%;
+    }
+
+    .li{
+        width: 100%;
+        height: 100%;
+    }
+    .img{
+        width: 100%;
+        height: 250px;
+    }
+
+    .bosses{
+        width: 98%;
+    }
+    .print_img{
+        width: 60%;
+        height: 270px;
+    }
+}

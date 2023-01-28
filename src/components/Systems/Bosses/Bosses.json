@@ -1,0 +1,35 @@
+{
+    "bosses":
+    [
+        {
+            "name":"Cooler",
+            "level":"Fácil",
+            "health":"90kk",
+            "regen":"50k",
+            "rewards":[
+                "30kk de TP",
+                "1 Fragmento Boss"
+            ]
+        },
+        {
+            "name":"BuuGohan",
+            "level":"Fácil",
+            "health":"140kk",
+            "regen":"140k",
+            "rewards":[
+                "40kk de TP",
+                "1 Fragmento Boss"
+            ]
+        },
+        {
+            "name":"VegettoSSJ",
+            "level":"Fácil",
+            "health":"140kk",
+            "regen":"140k",
+            "rewards":[
+                "50kk de TP",
+                "1 Fragmento Boss"
+            ]
+        }
+    ]
+}
