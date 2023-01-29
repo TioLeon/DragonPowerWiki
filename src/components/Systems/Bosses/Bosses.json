@@ -8,7 +8,7 @@
             "regen":"50k",
             "rewards":[
                 "30kk de TP",
-                "1 Fragmento Boss"
+                "1 Fragmentos Boss"
             ]
         },
         {
@@ -18,7 +18,7 @@
             "regen":"140k",
             "rewards":[
                 "40kk de TP",
-                "1 Fragmento Boss"
+                "1 Fragmentos Boss"
             ]
         },
         {
@@ -28,7 +28,314 @@
             "regen":"140k",
             "rewards":[
                 "50kk de TP",
-                "1 Fragmento Boss"
+                "1 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"BabyVegeta",
+            "level":"Médio",
+            "health":"300kk",
+            "regen":"350k",
+            "rewards":[
+                "65kk de TP",
+                "2 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"OmegaShenlong",
+            "level":"Médio",
+            "health":"370kk",
+            "regen":"400k",
+            "rewards":[
+                "80kk de TP",
+                "2 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"GokuSSJ4",
+            "level":"Médio",
+            "health":"400kk",
+            "regen":"405k",
+            "rewards":[
+                "95kk de TP",
+                "2 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"GoldenFrieza",
+            "level":"Difícil",
+            "health":"450kk",
+            "regen":"450k",
+            "rewards":[
+                "120kk de TP",
+                "2 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"ZamasuGattai",
+            "level":"Difícil",
+            "health":"520kk",
+            "regen":"500k",
+            "rewards":[
+                "140kk de TP",
+                "2 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"GokuUI",
+            "level":"Difícil",
+            "health":"600kk",
+            "regen":"620k",
+            "rewards":[
+                "160kk de TP",
+                "2 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Fu",
+            "level":"Extremo",
+            "health":"700kk",
+            "regen":"700k",
+            "rewards":[
+                "190kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"KambaSSJ",
+            "level":"Extremo",
+            "health":"780kk",
+            "regen":"800k",
+            "rewards":[
+                "220kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Merus",
+            "level":"Extremo",
+            "health":"900kk",
+            "regen":"950k",
+            "rewards":[
+                "250kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        },{
+            "name":"FreezaBlackForm",
+            "level":"Divina",
+            "health":"1.6B",
+            "regen":"8kk",
+            "rewards":[
+                "250kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        },{
+            "name":"GojetaSSJBK",
+            "level":"Divina",
+            "health":"2B",
+            "regen":"14kk",
+            "rewards":[
+                "250kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        },{
+            "name":"BrolySSJB4",
+            "level":"Divina",
+            "health":"2.6B",
+            "regen":"19kk",
+            "rewards":[
+                "250kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        },{
+            "name":"GuardaDoZeno",
+            "level":"Arcano",
+            "health":"900kk",
+            "regen":"950k",
+            "rewards":[
+                "250kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        },{
+            "name":"Arale",
+            "level":"Aracano",
+            "health":"900kk",
+            "regen":"950k",
+            "rewards":[
+                "250kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        },{
+            "name":"Jin",
+            "level":"Arcano",
+            "health":"900kk",
+            "regen":"950k",
+            "rewards":[
+                "250kk de TP",
+                "3 Fragmentos Boss"
+            ]
+        }
+        
+    ],
+    "bossesVip":[
+        {
+            "name":"FatBoo",
+            "level":"Boo",
+            "health":"1.5B",
+            "regen":"12kk",
+            "rewards":[
+                "500kk de TP",
+                "6 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"KidBoo",
+            "level":"Boo",
+            "health":"2B",
+            "regen":"15kk",
+            "rewards":[
+                "600kk de TP",
+                "6 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"SuperBoo",
+            "level":"Boo",
+            "health":"2.4B",
+            "regen":"20kk",
+            "rewards":[
+                "700kk de TP",
+                "6 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"GodBoo",
+            "level":"Boo",
+            "health":"3B",
+            "regen":"25kk",
+            "rewards":[
+                "700kk de TP",
+                "6 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Broly",
+            "level":"Broly",
+            "health":"1.5B",
+            "regen":"13kk",
+            "rewards":[
+                "600kk de TP",
+                "6 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"KaleLSSJ",
+            "level":"Broly",
+            "health":"2B",
+            "regen":"16kk",
+            "rewards":[
+                "700kk de TP",
+                "6 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"BrolyLSSJ",
+            "level":"Broly",
+            "health":"1.4B",
+            "regen":"22kk",
+            "rewards":[
+                "800kk de TP",
+                "6 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"BrolyLSSJ4",
+            "level":"Broly",
+            "health":"3B",
+            "regen":"28kk",
+            "rewards":[
+                "900kk de TP",
+                "6 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Champa",
+            "level":"Whis",
+            "health":"1.5B",
+            "regen":"14kk",
+            "rewards":[
+                "800kk de TP",
+                "7 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Champa",
+            "level":"Whis",
+            "health":"2B",
+            "regen":"18kk",
+            "rewards":[
+                "900kk de TP",
+                "7 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Whis",
+            "level":"Whis",
+            "health":"2.4B",
+            "regen":"25kk",
+            "rewards":[
+                "1B de TP",
+                "7 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Vados",
+            "level":"Whis",
+            "health":"3B",
+            "regen":"30kk",
+            "rewards":[
+                "1.1B de TP",
+                "7 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"GuardaDoZeno",
+            "level":"Zeno",
+            "health":"1.5B",
+            "regen":"16kk",
+            "rewards":[
+                "900kk de TP",
+                "7 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Daishinkan",
+            "level":"Zeno",
+            "health":"2B",
+            "regen":"20kk",
+            "rewards":[
+                "1B de TP",
+                "7 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Zeno",
+            "level":"Zeno",
+            "health":"2.4B",
+            "regen":"28kk",
+            "rewards":[
+                "1.2B de TP",
+                "7 Fragmentos Boss"
+            ]
+        },
+        {
+            "name":"Zarama",
+            "level":"Zeno",
+            "health":"3B",
+            "regen":"35kk",
+            "rewards":[
+                "1.3B de TP",
+                "7 Fragmentos Boss"
             ]
         }
     ]
