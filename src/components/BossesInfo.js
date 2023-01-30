@@ -20,8 +20,8 @@ const BossesInfo = ({ bosses, vip}) => {
             <p><span className={styles.bold}>Regeneração:</span> {boss.regen}</p>
             <p><span className={styles.bold}>Recompensas:</span></p>
             <ul>
-                {boss.rewards.map((reward)=>{
-                    return(<li>- {reward}</li>)
+                {boss.rewards.map((reward, index)=>{
+                    return(<li key={index}>- {reward}</li>)
                 })}
             </ul>
             <div className={styles.navigation}>
