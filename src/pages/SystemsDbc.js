@@ -1,11 +1,14 @@
 import React from 'react'
 import { Unselect } from '../components/BackButton'
 import Bosses from '../components/Systems/Bosses'
+import Duels from '../components/Systems/Duels'
 import ItemShop from '../components/Systems/ItemShop'
 import Mine from '../components/Systems/Mines'
 import Sell from '../components/Systems/Sell'
+import Fishing from '../components/Systems/Fishing'
 
 import styles from './Systems.module.css'
+import Market from '../components/Systems/Market'
 
 const SystemsDbc = ( {setServer }) => {
   return (
@@ -19,7 +22,10 @@ const SystemsDbc = ( {setServer }) => {
             <Mine styles={styles}/>
             <Sell styles={styles}/>
             <ItemShop styles={styles}/>
+            <Market styles={styles}/>
+            <Fishing styles={styles}/>
             <Bosses styles={styles}/>
+            <Duels styles={styles}/>
         </div>
         <Unselect setServer={setServer}/>
       </div>

@@ -23,16 +23,18 @@ const Sell = ({styles}) => {
                 <p>Segue uma tabela dos valores: </p>
                 <h3 className={styles.tableTitle}>Minérios</h3>
                 <table>
-                    <tr>
-                        <th>Item</th>
-                        <th>Valor</th>
-                        <th>x64</th>
-                    </tr>
-                    <Item name={"Lapis Lazuli"} value={12}/>
-                    <Item name={"Carvão"} value={18}/>
-                    <Item name={"Diamante"} value={24}/>
-                    <Item name={"Esmeralda"} value={30}/>
-                    <Item name={"Ferro"} value={36}/>
+                    <tbody>
+                        <tr>
+                            <th>Item</th>
+                            <th>Valor</th>
+                            <th>x64</th>
+                        </tr>
+                        <Item name={"Lapis Lazuli"} value={12}/>
+                        <Item name={"Carvão"} value={18}/>
+                        <Item name={"Diamante"} value={24}/>
+                        <Item name={"Esmeralda"} value={30}/>
+                        <Item name={"Ferro"} value={36}/>
+                    </tbody>
                 </table>
                 <h3 className={styles.tableTitle}>Plantações</h3>
                 <table>
