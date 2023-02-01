@@ -9,6 +9,9 @@ import Fishing from '../components/Systems/Fishing'
 
 import styles from './Systems.module.css'
 import Market from '../components/Systems/Market'
+import Capsules from '../components/Systems/Capsules'
+import Bank from '../components/Systems/Bank'
+import Zenkai from '../components/Systems/Zenkai'
 
 const SystemsDbc = ( {setServer }) => {
   return (
@@ -23,9 +26,12 @@ const SystemsDbc = ( {setServer }) => {
             <Sell styles={styles}/>
             <ItemShop styles={styles}/>
             <Market styles={styles}/>
+            <Bank styles={styles}/>
             <Fishing styles={styles}/>
             <Bosses styles={styles}/>
+            <Capsules styles={styles}/>
             <Duels styles={styles}/>
+            <Zenkai styles={styles}/>
         </div>
         <Unselect setServer={setServer}/>
       </div>

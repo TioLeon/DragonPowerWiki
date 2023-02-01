@@ -164,6 +164,14 @@ td, th {
     font-family: monospace;
 }
 
+.zenkais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 @media (max-width: 1000px) {
     .container{
         min-height: 77.3vh;
