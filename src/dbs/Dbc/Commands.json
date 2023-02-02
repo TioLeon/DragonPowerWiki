@@ -64,6 +64,18 @@
             "name":"Zenkai",
             "command":"zenkai",
             "desc":"Comando para pessoas avançadas, reseta seus Status e Skills em troca de benefícios (tais como o aumento de Status Máximos)"
+        },{
+            "name":"Mercado - Ver",
+            "command":"mercado ver",
+            "desc":"Abre o mercado, local onde os jogadores podem comprar itens de outros jogadores de forma segura."
+        },{
+            "name":"Mercado - Vender",
+            "command":"mercado vender",
+            "desc":"Anuncia o item que está em sua mão no mercado para ser comprado por outros jogadores"
+        },{
+            "name":"Mercado - Coletar",
+            "command":"mercado coletar",
+            "desc":"Coleta os itens que você estava vendendo no mercado que não foram vendidos."
         }
     ]
 }

@@ -7,6 +7,11 @@
                 "thumb":"Spawn.png"
             },
             {
+                "name": "Iniciantes",
+                "command": "warp iniciantes",
+                "thumb":"Iniciantes.png"
+            },
+            {
                 "name": "Pesca",
                 "command": "warp pesca",
                 "thumb":"Pesca.png"
@@ -25,6 +30,11 @@
                 "name": "Bosses - Divino/Arcano",
                 "command": "warp bosses2",
                 "thumb":"Bosses2.png"
+            },
+            {
+                "name": "Bosses - Vip",
+                "command": "warp bossesvip",
+                "thumb":"BossesVip.png"
             },
             {
                 "name": "Clans",
@@ -50,6 +60,11 @@
                 "name": "City",
                 "command": "warp city",
                 "thumb":"City.png"
+            },
+            {
+                "name": "Banco",
+                "command": "warp banco",
+                "thumb":"Banco.png"
             },
             {
                 "name": "Hefesto",

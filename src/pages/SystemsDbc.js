@@ -12,6 +12,7 @@ import Market from '../components/Systems/Market'
 import Capsules from '../components/Systems/Capsules'
 import Bank from '../components/Systems/Bank'
 import Zenkai from '../components/Systems/Zenkai'
+import Hefesto from '../components/Systems/Hefesto'
 
 const SystemsDbc = ( {setServer }) => {
   return (
@@ -31,6 +32,7 @@ const SystemsDbc = ( {setServer }) => {
             <Bosses styles={styles}/>
             <Capsules styles={styles}/>
             <Duels styles={styles}/>
+            <Hefesto styles={styles}/>
             <Zenkai styles={styles}/>
         </div>
         <Unselect setServer={setServer}/>
