@@ -1,0 +1,85 @@
+{
+    "sagas":[
+        {
+            "title":"Saga Z",
+            "desc":"Missões que seguem a história do Anime Dragon Ball Z",
+            "arcs":[{
+                "title":"Arco dos Saiyajins",
+                "reqs":{
+                    "str":"25k",
+                    "dex":"20k",
+                    "con":"25k"
+                },
+                "desc":"A chegada de três alienígenas humanoides, conhecidos como saiyajins, à Terra, procurando por Goku primeiro, e as Esferas do Dragão depois. A saga cobre a chegada do primeiro deste Saiyajins, Raditz, e sua luta contra seu irmão Goku e Piccolo. Então cobre o treinamento subsequente e preparação para a chegada de dois outros Saiyajins Nappa e Vegeta.",
+                "cd":"Diário",
+                "missions":
+                    [
+                        {
+                            "title":"O resgate de Gohan",
+                            "obj":"Fale com Gohan",
+                            "rewards":[
+                                "15kk de Tp",
+                                "15k de Money"
+                            ]
+                        },{
+                            "title":"O confronto contra Raditz",
+                            "obj":"Derrote Raditz",
+                            "rewards":[
+                                "30kk de Tp",
+                                "30k de Money"
+                            ]
+                        },{
+                            "title":"Demônios a Frente",
+                            "obj":"Derrote os demônios do caminho da serpente",
+                            "rewards":[
+                                "60kk de Tp",
+                                "60k de Money"
+                            ]
+                        },{
+                            "title":"Treinamento de Goku",
+                            "obj":"Complete o desafio do Sr. Kaioh",
+                            "rewards":[
+                                "120kk de Tp",
+                                "120k de Money"
+                            ]
+                        },{
+                            "title":"De volta a Terra",
+                            "obj":"Derrote Gohan e Piccolo",
+                            "rewards":[
+                                "170kk de Tp",
+                                "170k de Money"
+                            ]
+                        },{
+                            "title":"O poder despertado",
+                            "obj":"Pare Gohan",
+                            "rewards":[
+                                "200kk de Tp",
+                                "200k de Money"
+                            ]
+                        },{
+                            "title":"A chegada dos Saiyajins",
+                            "obj":"Derrote Nappa e os Saibamens",
+                            "rewards":[
+                                "220kk de Tp",
+                                "220k de Money"
+                            ]
+                        },{
+                            "title":"O príncipe aparece",
+                            "obj":"Derrote Vegeta e Nappa",
+                            "rewards":[
+                                "250kk de Tp",
+                                "250k de Money"
+                            ]
+                        },{
+                            "title":"Kamehameha x Galick Ho",
+                            "obj":"Derrote Vegeta Oozaru",
+                            "rewards":[
+                                "280kk de Tp",
+                                "280k de Money"
+                            ]
+                        }
+                    ]               
+            }]
+        }
+    ]
+}

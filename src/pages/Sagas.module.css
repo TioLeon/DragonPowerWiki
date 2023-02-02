@@ -1,0 +1,131 @@
+.container{
+    min-height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222;
+}
+
+.intro{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sagas{
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    gap: 5px;
+}
+
+.saga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.arcs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.missions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 150px;
+    border: black 1px solid;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    padding: 3px;
+    margin: 3px;
+}
+
+.title{
+    width: 100%;
+    color: orange;
+    background-color: #222;
+    text-align: center;
+}
+
+.mainTitle{
+    width: 100%;
+    color: orange;
+    border: solid 1px orange;
+    background-color: #222;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mainTitle > span{
+    position: absolute;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    right: 12%;
+}
+
+.mainTitle:hover{
+    cursor: pointer;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+@media (max-width: 1000px) {
+    .container{
+        min-height: 77.3vh;
+    }
+    .intro{
+        width: 100%;
+    }
+
+    .sagas{
+        width: 98%;
+    }
+    
+    .saga{
+        width: 100%;
+    }
+
+    .missions{
+        flex-direction: column;
+        
+    }
+    .mission{
+        width:  98%;
+        height: 100%;
+    }
+}

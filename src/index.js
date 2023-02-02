@@ -10,6 +10,7 @@ import Commands from './pages/Commands';
 import Ranks from './pages/Ranks';
 import Warps from './pages/Warps';
 import Systems from './pages/Systems';
+import Sagas from './pages/Sagas';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "systems",
         element: <Systems/>
+      },
+      {
+        path: "sagas",
+        element: <Sagas/>
       }
   ]
   }

@@ -5,7 +5,7 @@ import styles from './Home.module.css'
 import { BsFillGearFill } from 'react-icons/bs'
 import { HiLocationMarker } from 'react-icons/hi'
 import { HiCommandLine } from 'react-icons/hi2'
-import { GiRank3 } from 'react-icons/gi'
+import { GiRank3, GiScrollUnfurled } from 'react-icons/gi'
 import { RiVipFill } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 
@@ -20,6 +20,12 @@ const Home = () => {
                     <div className={styles.info_container}>
                         <span className={styles.info_title}>Sistemas<BsFillGearFill/></span>
                         <p>Nosso servidor possui diversos sistemas, se você possui dúvidas ou não conhece alguns deles essa categoria irá te mostrar como utilizar cada um dos sistemas implementados em cada servidor!</p>
+                    </div>
+                </Link>
+                <Link to={"sagas"}>
+                    <div className={styles.info_container}>
+                        <span className={styles.info_title}>Sagas<GiScrollUnfurled/></span>
+                        <p>Em ambos os servidores as missões do mod foram desativadas mas existem várias missões e sagas para substituí-las e essa categoria irá lhe dar informações sobre cada uma delas!</p>
                     </div>
                 </Link>
                 <Link to={"warps"}>
