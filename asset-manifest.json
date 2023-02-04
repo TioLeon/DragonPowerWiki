@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DragonPowerWiki/static/css/main.eca13ae9.css",
-    "main.js": "/DragonPowerWiki/static/js/main.2e98b543.js",
+    "main.css": "/DragonPowerWiki/static/css/main.3087c7ff.css",
+    "main.js": "/DragonPowerWiki/static/js/main.7741c568.js",
     "static/media/Naruto.png": "/DragonPowerWiki/static/media/Naruto.cbd7018e5d71d39dd77f.png",
     "static/media/Goku.png": "/DragonPowerWiki/static/media/Goku.11d6445393d792387368.png",
     "index.html": "/DragonPowerWiki/index.html",
-    "main.eca13ae9.css.map": "/DragonPowerWiki/static/css/main.eca13ae9.css.map",
-    "main.2e98b543.js.map": "/DragonPowerWiki/static/js/main.2e98b543.js.map"
+    "main.3087c7ff.css.map": "/DragonPowerWiki/static/css/main.3087c7ff.css.map",
+    "main.7741c568.js.map": "/DragonPowerWiki/static/js/main.7741c568.js.map"
   },
   "entrypoints": [
-    "static/css/main.eca13ae9.css",
-    "static/js/main.2e98b543.js"
+    "static/css/main.3087c7ff.css",
+    "static/js/main.7741c568.js"
   ]
 }
