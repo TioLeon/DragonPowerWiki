@@ -3,7 +3,8 @@
         {
             "title":"Saga Z",
             "desc":"Missões que seguem a história do Anime Dragon Ball Z",
-            "arcs":[{
+            "arcs":[
+                {
                 "title":"Arco dos Saiyajins",
                 "reqs":{
                     "str":"25k",
@@ -79,7 +80,148 @@
                             ]
                         }
                     ]               
-            }]
-        }
+                },
+                {
+                    "title":"Arco de Namek",
+                    "reqs":{
+                        "str":"50k",
+                        "dex":"40k",
+                        "con":"50k"
+                    },
+                    "desc":"Acompanhe os Guerreiros Z em sua jornada até o planeta Namek onde planejam encontrar as esferas do dragão para reviver aqueles que foram mortos pelos Saiyajins.",
+                    "cd":"Diário",
+                    "missions":
+                        [
+                            {
+                                "title":"Ares para um novo Mundo",
+                                "obj":"Recupere o módulo da nave!",
+                                "rewards":[
+                                    "?"
+                                ]
+                            },{
+                                "title":"Projeto Namekusei",
+                                "obj":"Entregue o módulo para a Bulma",
+                                "rewards":[
+                                    "150kk de tp",
+                                    "150k de money"
+                                ]
+                            },{
+                                "title":"Criar combustível",
+                                "obj":"Crie combustível para a nave",
+                                "rewards":[
+                                    "150kk de tp",
+                                    "150k de money"
+                                ]
+                            },{
+                                "title":"Entregue o combustível",
+                                "obj":"Entregue o combustível para Dr. Briefs",
+                                "rewards":[
+                                    "orbs de TP",
+                                    "orbs de Money"
+                                ]
+                            },{
+                                "title":"Vá para Namek",
+                                "obj":"Vá com a nave para Namek",
+                                "rewards":[
+                                    "orbs de TP",
+                                    "orbs de Money"
+                                ]
+                            }
+                        ]               
+                },
+                {
+                    "title":"Arco do Freeza",
+                    "reqs":{
+                        "str":"80k",
+                        "dex":"80k",
+                        "con":"80k"
+                    },
+                    "desc":"Ao chegar em Namek ou guerreiros Z foram surpreendidos pelas forças do terrível Imperador Freeza que agora também está procurando pelas esferas do dragão.",
+                    "cd":"Diário",
+                    "missions":
+                        [
+                            {
+                                "title":"Guerra em Namekusei",
+                                "obj":"Derrote Dodoria",
+                                "rewards":[
+                                    "300kk de tp",
+                                    "300k de money"
+                                ]
+                            },{
+                                "title":"Guerra em Namekusei II",
+                                "obj":"Derrote Zarbon",
+                                "rewards":[
+                                    "300kk de tp",
+                                    "300k de money"
+                                ]
+                            },{
+                                "title":"Reforços, Tropa Ginyu",
+                                "obj":"Derrote Guldo",
+                                "rewards":[
+                                    "350kk de tp",
+                                    "350k de money"
+                                ]
+                            },{
+                                "title":"Reforços, Tropa Ginyu",
+                                "obj":"Derrote Rikun",
+                                "rewards":[
+                                    "380kk de tp",
+                                    "380k de money"
+                                ]
+                            },{
+                                "title":"Reforços, Tropa Ginyu",
+                                "obj":"Derrote Jess e Botter",
+                                "rewards":[
+                                    "500kk de tp",
+                                    "500k de money"
+                                ]
+                            },{
+                                "title":"Reforços, Tropa Ginyu",
+                                "obj":"Derrote Cpt. Ginyu",
+                                "rewards":[
+                                    "? tp",
+                                    "500k de money"
+                                ]
+                            },{
+                                "title":"O grande imperador",
+                                "obj":"Derrote Freeza Base",
+                                "rewards":[
+                                    "600kk tp",
+                                    "600k de money"
+                                ]
+                            },{
+                                "title":"O grande imperador",
+                                "obj":"Derrote Freeza 2ºForma",
+                                "rewards":[
+                                    "620kk tp",
+                                    "620k de money"
+                                ]
+                            },{
+                                "title":"O grande imperador",
+                                "obj":"Derrote Freeza 3ºForma",
+                                "rewards":[
+                                    "650kk tp",
+                                    "650k de money"
+                                ]
+                            },{
+                                "title":"O grande imperador",
+                                "obj":"Derrote Freeza 5%",
+                                "rewards":[
+                                    "680kk tp",
+                                    "680k de money"
+                                ]
+                            },{
+                                "title":"O grande imperador",
+                                "obj":"Derrote Freeza 100/100",
+                                "rewards":[
+                                    "800kk tp",
+                                    "800k de money"
+                                ]
+                            }
+                           
+                        ]               
+                }]
+        }   
+        
     ]
 }

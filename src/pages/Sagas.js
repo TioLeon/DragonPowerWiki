@@ -65,7 +65,6 @@ const Saga = ( {saga} ) => {
 }
 
 const Arc = ( {arc} ) => {
-    arc = DbcData.sagas[0].arcs[0];
     return(
       <div className={styles.arc}>
         <h4 className={styles.title}>{arc.title}</h4>
