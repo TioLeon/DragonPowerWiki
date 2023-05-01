@@ -14,7 +14,6 @@ import Sagas from './pages/Sagas';
 
 const router = createBrowserRouter([
   {
-    basename:"DragonPowerWiki",
     path:"/",
     element:<App/>,
     children:[
