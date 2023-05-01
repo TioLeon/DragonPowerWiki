@@ -44,7 +44,7 @@ const router = createBrowserRouter([
       }
   ]
   }
-], { basename: "/DragonPowerWiki" })
+], { basename: "/" })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
